@@ -1,5 +1,5 @@
 # ReSmooth with TeachAugment strategy
-This repository contains the experimental code for TeachAugment result in TABLE III.
+This repository contains the experimental code for TeachAugment result in TABLE III of ReSmooth.
 
 To be noticed, for fair comparison and minimal modification, we don't interfere the augmentation optimization process of TeachAugment by externally training a RS model. (It feels reasonable to optimize the augmentation directly from the RS model or only keep the final augmentation in the buffer for ReSmooth. But it's not the case of this repository.)
 
